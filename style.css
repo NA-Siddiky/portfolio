@@ -22,7 +22,7 @@ h1{
 
 .button-link{
     text-decoration: none;
-    background-color: linear-gradient(45deg, orange, red);
+    background-color: linear-gradient(45deg orange red);
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
