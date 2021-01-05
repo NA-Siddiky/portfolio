@@ -4,7 +4,9 @@ body{
 }
 
 section{
-    height: 500px;
+    height: 540px;
+    padding-bottom: 100px;
+    border: 1px solid green;
 }
 
 .top-banner{
@@ -14,6 +16,14 @@ section{
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
 }
 
 .name-highlight{
@@ -37,5 +47,12 @@ h1{
 }
 
 .half-of-width img{
-    width: 100%;
+    width: 82%;
+    padding: 10px 10px;
+}
+
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
