@@ -40,10 +40,12 @@ p{
 }
 
 .half-of-width{
-    width: 40%;
+    width: 34%;
     float: left;
-    margin-left: 5%;
-    padding-left: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .half-of-width img{
@@ -55,4 +57,36 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experience-box{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 70%;
+    width: 33%;
+    background-color: white;
+}
+
+#vertical-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, rgb(255, 187, 0));
+    border-image-slice: 1;
+}
+
+#vertical-line2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,rgb(0, 128, 122));
+    border-image-slice: 1;    
+}
+
+footer p{
+    text-align:center;
+    font-size: 12px;
 }
