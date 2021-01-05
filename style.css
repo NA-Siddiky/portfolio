@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
@@ -88,4 +89,96 @@ p{
 footer p{
     text-align:center;
     font-size: 12px;
+=======
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    height: 540px;
+    padding-bottom: 100px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
+.name-highlight{
+    color: orange;
+}
+
+.button-of-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, orange, red)
+}
+
+.half-of-width{
+    width: 34%;
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.half-of-width img{
+    width: 82%;
+    padding: 10px 10px;
+}
+
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experience-box{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 70%;
+    width: 33%;
+    background-color: white;
+}
+
+#vertical-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, rgb(255, 187, 0));
+    border-image-slice: 1;
+}
+
+#vertical-line2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,rgb(0, 128, 122));
+    border-image-slice: 1;    
+}
+
+footer p{
+    text-align:center;
+    font-size: 12px;
+>>>>>>> ff25f7dead909067d0f654bbc4dba9715041c2d7
 }
